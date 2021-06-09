@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LADM_UD3_TAREA2</string>
+
+    <array name="buscarpor">
+        <item>Nombre cliente</item>
+    </array>
+</resources>

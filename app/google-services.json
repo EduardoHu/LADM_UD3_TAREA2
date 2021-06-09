@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1067188787231",
+    "project_id": "ladm-ud3-tarea2",
+    "storage_bucket": "ladm-ud3-tarea2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1067188787231:android:f4aa8a8a35854f440b9d2a",
+        "android_client_info": {
+          "package_name": "com.example.ladm_ud3_tarea2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1067188787231-og1qoqoafj2fi71eh8j48lan57cl5sol.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACfcewnag6At_o9sNx4YZWRmYANHMD_e0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1067188787231-og1qoqoafj2fi71eh8j48lan57cl5sol.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

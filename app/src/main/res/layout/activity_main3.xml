@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".MainActivity3">
+
+    <EditText
+        android:id="@+id/txtcelular2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="CELULAR NO DISPONIBLE"/>
+
+    <EditText
+        android:id="@+id/estadoentrega2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="ESTADO ENTREGA NO DISPONIBLE"
+        />
+
+    <EditText
+        android:id="@+id/txtfecha2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint=" FECHA NO DISPONIBLE"/>
+
+    <EditText
+        android:id="@+id/nombrecliente2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="NO DISPONIBLE"/>
+
+    <EditText
+        android:id="@+id/cantidad2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="0.5dp"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="CANTIDAD DISPONIBLE"/>
+
+    <EditText
+        android:id="@+id/descripcion2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="0.5dp"
+        android:ems="10"
+        android:hint="DESCRIPCION DISPONIBLE"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/precio2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="0.5dp"
+        android:ems="10"
+        android:hint="PRECIO DISPONIBLE"
+        android:inputType="number"/>
+
+
+    <Button
+        android:id="@+id/buttonAct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ACTUALIZAR" />
+
+    <Button
+        android:id="@+id/Bregragresar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REGRESAR" />
+
+
+
+
+</LinearLayout>

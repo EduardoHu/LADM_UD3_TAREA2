@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/txtcelular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="0.5dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Celular"
+         />
+
+    <EditText
+        android:id="@+id/estadoentrega"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="0.5dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="TRUE/FALSE"/>
+
+    <EditText
+        android:id="@+id/txtfecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="0.5dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="DD/MM/AAAA"/>
+
+    <EditText
+        android:id="@+id/nombrecliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="0.5dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Nombre del cliente"/>
+
+    <EditText
+        android:id="@+id/cantidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="0.5dp"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="cantidad"/>
+
+    <EditText
+        android:id="@+id/descripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="0.5dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+         android:hint="Descripcion"/>
+
+    <EditText
+        android:id="@+id/precio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="0.5dp"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Precio"/>
+
+    <CheckBox
+        android:id="@+id/estatusentrega"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="0.25dp"
+        android:text="ESTADO ENTREGA"
+        android:checked="true"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="0.5dp"
+        android:text="INGRESAR" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="0.5dp"
+        android:text="CONSULTAR" />
+
+
+    <TextView
+        android:id="@+id/resultado"
+        android:textSize="17sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resultado" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listaped"/>
+
+
+</LinearLayout>
